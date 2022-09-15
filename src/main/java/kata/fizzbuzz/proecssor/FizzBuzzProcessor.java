@@ -12,9 +12,8 @@ import java.util.List;
  */
 public
 class FizzBuzzProcessor{
-
     //order is important
-    public static List<Evaluator> evaluatorList = Arrays.asList(
+    protected static final List<Evaluator> evaluatorList = Arrays.asList(
             new MultipleOfFiveAndThreeEvaluator() ,
             new MultipleOfFiveEvaluator() ,
             new MultipleOfThreeEvaluator() ,
